@@ -20,7 +20,6 @@ public class Logowanie {
         driver = new ChromeDriver();
 
     }
-
     @Given("Użytkownik przechodzi na stronę {string}")
     public void użytkownik_przechodzi_na_strone(String adresStrony) {
         //adresStrony to zmienna ktora zapamieta adres strony internetowej

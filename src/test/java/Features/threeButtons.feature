@@ -15,6 +15,7 @@ Feature: Wyszukanie po nazwie odpowiedniego przycisku i kliknęcie w niego
     When Użytkownik wciska właściwy przycisk
     Then Zostaje dodana nazwa przycisku w przeglądarce
 
+
   Scenario: Poprawne kliknięcie przycisku krok 3
     Given Użytkownik przechodzi na stronę "https://antycaptcha.amberteam.pl/exercises/exercise1"
     And Użytkownik sprawdza nazwe przycisku Test Step numer trzeci
